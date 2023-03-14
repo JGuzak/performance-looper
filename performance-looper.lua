@@ -18,10 +18,10 @@ local audio = require "audio"
 local util = require "util"
 local UI = require "ui"
 local lattice = require "lattice"
-local Looper = include "PerformanceLooper/lib/looper"
-local Transport = include "PerformanceLooper/lib/transport"
-local Mixer = include "PerformanceLooper/lib/mixer"
-local GridEvent = include "PerformanceLooper/lib/gridEvent"
+local Looper = include "performance-looper/lib/looper"
+local Transport = include "performance-looper/lib/transport"
+local Mixer = include "performance-looper/lib/mixer"
+local GridEvent = include "performance-looper/lib/gridEvent"
 
 -- -------------------------
 -- Debug/dev functions
